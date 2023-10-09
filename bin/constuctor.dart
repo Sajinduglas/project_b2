@@ -1,0 +1,1 @@
+///constructor    -- a type of method which name  is same as class name
