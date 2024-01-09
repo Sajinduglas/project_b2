@@ -1,10 +1,10 @@
 void main() {
-  func1();
+  /*func1();
   func2();
   print(func2());
   int value_returned_from_func2=func2();
   print(value_returned_from_func2);
-  func3(100, 'hello');// 100 and hello are called  actual parameters
+  func3(100, 'hello');// 100 and hello are called  actual parameters*/
   print(func4('hai', 'hello'));
   String value_returned_from_func4 = func4('good', 'evening');
   print(value_returned_from_func4);

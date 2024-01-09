@@ -5,7 +5,7 @@ class sample{
   void show(){///user defined method
    String brand ="maruthi";
    int year=2022;
-   ///print(colour) we can access instance variable and stativ variable anywhere inside the class
+   ///print(colour) we can access instance variable and static variable anywhere inside the class
     print('brand    =$brand');
     print('year     =$year');
   }
@@ -20,4 +20,6 @@ void main(){
   print ('mileage       =${obj.milage =22} ');
   obj.show();///to call amethod inside the class object.methodname();
   display();
+  ///class inte akathai function call cheyan we need object
+  ///but allathai function call cheyaan we need only function name
 }

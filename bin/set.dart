@@ -23,6 +23,12 @@ void main(){
   ///   for in loop -----for(variable in collection){
   for(var i in set2){
     print(i);
+
   }
+  ///for each
+  print('   ');
+  set2.forEach((element) {
+    print(element);
+  });
 
 }

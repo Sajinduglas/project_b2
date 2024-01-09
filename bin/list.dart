@@ -1,9 +1,9 @@
 void main(){
-  ///list  --- ordered colletion of values - which support upplicate values
+  ///list  --- ordered colletion of values - which support dupplicate values
   ///eg var num =18 ethil namml num ennu parayunnai variavle il single value mathremai store cheyunnu ullu
   ///literal way of list creation
   ///
-  var list1 =[]; // empty list
+  List list1 =[]; // empty list
   var list2 =[1,2,3,4,5,6,"heii"];// dynamic list
   List<int> list3 =[1,2,3,4,5,6,7,8,9];
   print(list1);
@@ -25,6 +25,7 @@ void main(){
   }
   for(int index=0;index<list3.length;index++){
     print('list3 $index =${list3[index]}');
+    ///list il ulla each index il value single line il print akaan ayyi we use this
   }
   for(var i in list3) {
     print(i);

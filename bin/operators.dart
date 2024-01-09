@@ -8,7 +8,7 @@ void main(){
   print('a*b    =${a*b}');
   print('a/b    =${a/b}');
   print('a%b    =${a%b}');
-  print('a~/b    =${a~/b}');
+  print('a~/b   =${a~/b}');
 
 print("  ");
 
@@ -42,6 +42,8 @@ print("  ");
   int otp =126;
 
   print(username==user &&password==pass);
+  print(username==user &&password==pass  ||otp==126);
+  print(!(username==user )&&password==pass);
 
 
 

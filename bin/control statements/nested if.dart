@@ -4,7 +4,7 @@ void main (){
   int otp=12345;
   ///nested if
   ///
-  if(username=='admin &&password  ==1234'){
+  if(username=='admin' &&password  =='1234'){
     print("email password authentication successfull");
 
   }
