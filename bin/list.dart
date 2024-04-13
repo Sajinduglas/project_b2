@@ -1,6 +1,6 @@
 void main(){
   ///list  --- ordered colletion of values - which support dupplicate values
-  ///eg var num =18 ethil namml num ennu parayunnai variavle il single value mathremai store cheyunnu ullu
+  ///eg var num =18 ethil namml num ennu parayunnai variable il single value mathremai store cheyunnu ullu
   ///literal way of list creation
   ///
   List list1 =[]; // empty list

@@ -1,5 +1,5 @@
 class mobilephones{
-  String? name;
+  String?name;
   int? price;
   String? RAM;
   String? ROM;

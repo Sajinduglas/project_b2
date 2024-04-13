@@ -12,7 +12,7 @@ void main (){
     print('otp verification success login success');
   }
   else{
-    print("email password authentication failed");
+    print("email password  authentication failed");
 
   }
 }

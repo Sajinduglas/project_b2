@@ -24,3 +24,34 @@ void main(){
   obj1.savings(8136855126000," sajin", 12, 25000,"kakanad");
   print("IFSC     ${obj.IFSC}");
 }
+// class Father{
+//   String name="John";
+//   void details(String job,int phone,String mail){
+//     print("Job=$job");
+//     print("Phone=$phone");
+//     print("mail=$mail");
+
+
+//   }
+// }
+// class Child extends Father{
+
+//   @override
+//   String name="Kevin";
+//   @override
+//   void details(String schoolname,int standard,String division){
+
+//     print("Schoolname=$schoolname");
+//     print("Standard=$standard");
+//     print("Division=$division");
+//     print("father name=${super.name}");
+//     super.details("Doctor", 5678889, "flwh@fghjk");
+
+//   }
+// }
+// void main(){
+//   Child obj=Child();{
+//     print("child name=${obj.name}");
+//     obj.details("Olm", 3, "b");
+//   }
+// }
